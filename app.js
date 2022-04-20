@@ -4,6 +4,7 @@ const form = document.getElementById("dino-compare");
 
 // Create Grid
 async function createGrid() {
+  console.log("start");
   // Dino Constructor
   function Dino(dino) {
     this.species = dino.species;
